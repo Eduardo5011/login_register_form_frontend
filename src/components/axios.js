@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "login-register-101.onrender.com",
+  baseURL: "https://login-register-backend-i5pd.onrender.com",
 });
