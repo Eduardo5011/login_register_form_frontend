@@ -8,7 +8,7 @@ const AUTH_URL = "/";
 
 const Secret = () => {
   const navigate = useNavigate();
-  const [cookies, setCookies, removeCookies] = useCookies([]);
+  const [cookies, removeCookies] = useCookies([]);
 
   useEffect(() => {
     const verifyUser = async (user) => {
